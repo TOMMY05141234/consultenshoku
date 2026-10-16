@@ -14,6 +14,10 @@ MyVision・AXIS Agent・ASSIGNの比較と、コンサル転職に関する7本�
 
 Pagesを新規に使う場合は、PagesプロジェクトでFramework=None、Build command=空欄、Build output directory=distを指定します。現在のwrangler.jsoncはWorkers用です。
 
+## 2026-10-16 更新
+
+比較ページ下部（`/#career-guide`）に20代向けの記事LP全文を掲載し、単独版は`/career-20s/`に残しています。3社の求人数表示は「業界求人多数」に統一し、各社への相談・公式サイト・ロゴのリンクはA8経由です。目次・比較セクションへの移動や記事ナビゲーション、公的データの出典リンクは用途に応じて保持しています。`/release.json`で公開版を確認できます。
+
 ## ページ
 
 - `/`：転職エージェント3社比較

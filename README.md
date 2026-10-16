@@ -2,16 +2,17 @@
 
 MyVision・AXIS Agent・ASSIGNの比較と、コンサル転職に関する7本の記事を掲載する静的サイトです。
 
-## Cloudflare Pagesで公開
+## Cloudflare Workersで公開
 
 - 接続するリポジトリ：TOMMY05141234/consultenshoku
 - Production branch：main
-- Framework preset：None
 - Build command：空欄
-- Build output directory：dist
+- Deploy command：`npx wrangler deploy`
 - Root directory：リポジトリ直下
 
-ビルドや依存ライブラリのインストールは不要です。CloudflareでGit連携を設定すると、mainへの更新が自動デプロイされます。
+`wrangler.jsonc`の`assets.directory`で`./dist`を指定しています。Workerスクリプトやビルドは不要です。Git連携後、mainへの更新が自動デプロイされます。各記事はディレクトリ内のindex.htmlで配信し、存在しないURLは404になります。
+
+Pagesを新規に使う場合は、PagesプロジェクトでFramework=None、Build command=空欄、Build output directory=distを指定します。現在のwrangler.jsoncはWorkers用です。
 
 ## ページ
 

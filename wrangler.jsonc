@@ -1,5 +1,9 @@
 {
   "name": "consultenshoku",
   "compatibility_date": "2026-10-16",
-  "pages_build_output_dir": "./dist"
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none"
+  }
 }

@@ -1,0 +1,27 @@
+{
+  "wef": {
+    "name": "世界経済フォーラム「Future of Jobs Report 2025」",
+    "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/",
+    "scope": "2025年公表。55の国・地域、1,000社超の主要企業による、2025〜2030年の雇用・スキルに関する見通しです。日本のコンサル採用だけを調べた統計ではありません。"
+  },
+  "ipa": {
+    "name": "IPA「DX動向2026」図表4-1・4-8",
+    "url": "https://www.ipa.go.jp/digital/chousa/dx-trend/rcu1hd0000017uk8-att/dx-trend-2026.pdf",
+    "scope": "2026年4〜6月調査、7月公表。全体の有効回答は日本企業1,799社です。人材・スキルの設問は、全社戦略に基づくDXまたは部署ごとのDXに取り組む企業が対象です。コンサルの募集数・採用率を示す数値ではありません。"
+  },
+  "wage": {
+    "name": "厚生労働省「2025年上半期 雇用動向調査」",
+    "url": "https://www.mhlw.go.jp/toukei/itiran/roudou/koyou/doukou/26-1/dl/siryo.pdf",
+    "scope": "対象期間は2025年1〜6月。主要産業の常用労働者5人以上の事業所を対象にした調査の転職入職者の集計です。賃金の変化であり、コンサル限定・20代限定の年収増加率ではありません。"
+  },
+  "learning": {
+    "name": "厚生労働省「令和6年度 能力開発基本調査」",
+    "url": "https://www.mhlw.go.jp/stf/houdou/newpage_00202.html",
+    "scope": "2025年6月公表。国内の企業・事業所・労働者の能力開発についての調査です。社内のキャリアコンサルティング制度と、民間転職エージェントの利用は別のものです。"
+  },
+  "hbs": {
+    "name": "Dell’Acquaほか（2026）, Organization Science／HBS掲載",
+    "url": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf",
+    "scope": "BCGのコンサルタントら758人を対象にした無作為割付の実験です。使用モデルはGPT-4。AIが得意な範囲の18課題の結果であり、仕事全体や現在のすべてのAIに同じ効果が出るという意味ではありません。"
+  }
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "slug": "career-20s",
+    "title": "20代で「このままでいいのかな」と悩んだら",
+    "short": "キャリアの悩みと選択肢",
+    "image": "reflection",
+    "tags": [
+      "career",
+      "consultation"
+    ]
+  },
+  {
+    "slug": "consulting-no-experience",
+    "title": "未経験からコンサルへ。エージェントに相談する前に整理したいこと",
+    "short": "未経験からのコンサル転職",
+    "image": "reflection",
+    "tags": [
+      "beginner",
+      "career"
+    ]
+  },
+  {
+    "slug": "case-interview-support",
+    "title": "ケース面接が不安な人へ。コンサル転職エージェントの対策をどう比べる？",
+    "short": "ケース面接対策の比べ方",
+    "image": "preparation",
+    "tags": [
+      "interview",
+      "beginner"
+    ]
+  },
+  {
+    "slug": "choose-career-agent",
+    "title": "コンサル転職エージェントの選び方。求人の数より先に確かめたい5つのこと",
+    "short": "担当者・エージェントの見極め方",
+    "image": "conversation",
+    "tags": [
+      "agent",
+      "consultation"
+    ]
+  },
+  {
+    "slug": "consulting-salary-career",
+    "title": "年収を上げたくてコンサルへ。求人を比べるときに見落としたくないこと",
+    "short": "年収と仕事内容の比較ポイント",
+    "image": "reflection",
+    "tags": [
+      "salary",
+      "career"
+    ]
+  },
+  {
+    "slug": "first-agent-consultation",
+    "title": "転職するか未定でも相談していい？コンサル転職エージェントの初回面談ガイド",
+    "short": "初回相談の不安と準備",
+    "image": "conversation",
+    "tags": [
+      "consultation",
+      "agent"
+    ]
+  },
+  {
+    "slug": "ai-consulting-career",
+    "title": "AIでコンサルは不要になる？それでも転職を考える価値があると思う理由",
+    "short": "AI時代のコンサル転職",
+    "image": "preparation",
+    "tags": [
+      "ai",
+      "career",
+      "interview"
+    ]
+  }
+]

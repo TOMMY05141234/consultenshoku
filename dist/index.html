@@ -52,6 +52,34 @@ summary:focus-visible,a:focus-visible{outline:3px solid #23201C;outline-offset:2
 .vw .k{flex:0 0 64px;font-weight:700}
 .vw .s{flex:0 0 20px;font-weight:800;color:#7A4F00}
 .verdict{font-weight:700;margin:0 0 4px}
+
+@media(max-width:700px){
+body{font-size:15px;line-height:1.85}
+.wrap{padding:0 16px}
+.sec{padding:44px 0}
+h2{font-size:24px}
+h3{font-size:19px}
+.lead{font-size:15px}
+.rank{font-size:52px}
+.big{font-size:32px}
+.box{padding:18px 16px}
+.cta,.cta2{display:block;text-align:center;width:100%}
+.tblbox{overflow:visible;border:0;background:transparent}
+.tbl[data-stack]{min-width:0!important;display:block;font-size:14px}
+.tbl[data-stack] thead{display:none}
+.tbl[data-stack] tbody,.tbl[data-stack] tr{display:block}
+.tbl[data-stack] tr{margin:0 0 16px;border:1px solid #DDD3BF;border-radius:6px;background:#FFFDF8;overflow:hidden}
+.tbl[data-stack] tbody th{display:block;width:auto!important;border:0;background:#F1E8D2;padding:10px 14px;white-space:normal}
+.tbl[data-stack] td{display:block;border:0;border-top:1px solid #E3DBCB;padding:10px 14px}
+.tbl[data-stack] td::before{content:attr(data-label);display:inline-block;font-size:12px;font-weight:700;background:#23201C;color:#FBF8F1;border-radius:999px;padding:0 10px;margin-bottom:4px}
+.tbl[data-stack] td.top::before{background:#B98410}
+.scrollhint-d{display:none}
+.hcta{display:none}
+.h1m{font-size:27px!important;line-height:1.45!important}
+header{position:static!important}
+.hnav{flex-wrap:nowrap!important;overflow-x:auto;white-space:nowrap;width:100%;gap:18px!important;padding-bottom:4px}
+.vw .k{flex-basis:56px}
+}
 </style>
 
 </head>
@@ -65,7 +93,7 @@ summary:focus-visible,a:focus-visible{outline:3px solid #23201C;outline-offset:2
 <header style="position:sticky;top:0;z-index:5;background:#FBF8F1;border-bottom:1px solid #E3DBCB">
 <div class="wrap" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding-top:12px;padding-bottom:12px">
 <div style="font-family:'Shippori Mincho','Yu Mincho',serif;font-weight:800;font-size:20px;letter-spacing:.04em">CONSULT CAREER NOTE</div>
-<nav style="display:flex;flex-wrap:wrap;gap:6px 20px;font-size:14px">
+<nav class="hnav" style="display:flex;flex-wrap:wrap;gap:6px 20px;font-size:14px">
 <a href="#summary">結論</a>
 <a href="#market">市場の数字</a>
 <a href="#table">比較表</a>
@@ -73,7 +101,7 @@ summary:focus-visible,a:focus-visible{outline:3px solid #23201C;outline-offset:2
 <a href="#choose">選び方</a>
 <a href="#faq">FAQ</a>
 </nav>
-<a class="cta" href="https://px.a8.net/svt/ejp?a8mat=4B3G6L+2CJQ2Y+5B0Y+5YJRM" rel="nofollow sponsored noopener" target="_blank" style="min-height:44px;padding:8px 20px;font-size:14px">MyVisionを見る（PR）</a>
+<a class="cta hcta" href="https://px.a8.net/svt/ejp?a8mat=4B3G6L+2CJQ2Y+5B0Y+5YJRM" rel="nofollow sponsored noopener" target="_blank" style="min-height:44px;padding:8px 20px;font-size:14px">MyVisionを見る（PR）</a>
 </div>
 </header>
 
@@ -82,7 +110,7 @@ summary:focus-visible,a:focus-visible{outline:3px solid #23201C;outline-offset:2
 <div style="display:flex;flex-wrap:wrap;gap:40px;align-items:center">
 <div style="flex:1 1 520px;min-width:0">
 <div style="font-size:14px;font-weight:700;letter-spacing:.12em;color:#7A4F00;margin-bottom:12px">事業会社からコンサルへ</div>
-<h1 style="font-family:'Shippori Mincho','Yu Mincho',serif;font-weight:800;font-size:44px;line-height:1.4;margin:0 0 24px">コンサル転職エージェント、MyVision・ASSIGN・AXISを<span class="mk">徹底比較</span></h1>
+<h1 class="h1m" style="font-family:'Shippori Mincho','Yu Mincho',serif;font-weight:800;font-size:44px;line-height:1.4;margin:0 0 24px">コンサル転職エージェント、MyVision・ASSIGN・AXISを<span class="mk">徹底比較</span></h1>
 <p class="lead">どこに登録すればいいの？と迷うのは当たり前です。各社が書いている数字も、強いと言っている領域もバラバラで、そのまま並べても比べられません。そこでこのページでは、3社を同じ9項目で並べたうえで、未経験の人が一番知りたい<span class="mk">給与・働き方・出口・サポート力の4観点</span>で順位をつけました。</p>
 <p class="lead">先に結論です。メーカーなど事業会社から、未経験でコンサルを目指す人は、<span class="mk">1位のMyVisionに話を聞くところから始める</span>のがいちばん組み立てやすいと考えています。</p>
 <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:24px">
@@ -154,25 +182,25 @@ summary:focus-visible,a:focus-visible{outline:3px solid #23201C;outline-offset:2
 <h3>順位のつけ方</h3>
 <p>ランキングをつける際の観点は以下の4つです。◎は3社の中で最も強いもの、○は十分に対応できるものです。</p>
 <div class="tblbox">
-<table class="tbl" style="min-width:900px">
+<table class="tbl" style="min-width:900px" data-stack>
 <thead><tr><th style="width:120px">観点</th><th class="top">1位 MyVision</th><th>2位 ASSIGN</th><th>3位 AXIS Agent</th></tr></thead>
 <tbody>
 <tr><th>給与</th>
-<td class="top"><b>◎ 年収アップを数字で示している</b>内定承諾者の平均年収アップは156万円（2026年1月）。年収交渉は担当者が進める</td>
-<td><b>○ ハイキャリア向けの求人</b>年収・入社日の交渉に対応。非公開求人の質を評価する声が多い</td>
-<td><b>○ 高年収帯の求人が厚い</b>掲載求人の約9割が年収800万円以上。非公開求人は約8割</td></tr>
+<td data-label="MyVision" class="top"><b>◎ 年収アップを数字で示している</b>内定承諾者の平均年収アップは156万円（2026年1月）。年収交渉は担当者が進める</td>
+<td data-label="ASSIGN"><b>○ ハイキャリア向けの求人</b>年収・入社日の交渉に対応。非公開求人の質を評価する声が多い</td>
+<td data-label="AXIS Agent"><b>○ 高年収帯の求人が厚い</b>掲載求人の約9割が年収800万円以上。非公開求人は約8割</td></tr>
 <tr><th>働き方・QOL</th>
-<td class="top"><b>○ ファーム別の違いを比べられる</b>残業時間・年収・アサインの違いまで公式サイトで解説</td>
-<td><b>◎ 働き方の軸を先に決める</b>初回は求人を出さず、価値観や将来像から整理。7項目のキャリアプラン資料を作成</td>
-<td><b>○ 選択肢が広い</b>事業会社のDX、PE/VC、フリーランス・副業まで視野に入る</td></tr>
+<td data-label="MyVision" class="top"><b>○ ファーム別の違いを比べられる</b>残業時間・年収・アサインの違いまで公式サイトで解説</td>
+<td data-label="ASSIGN"><b>◎ 働き方の軸を先に決める</b>初回は求人を出さず、価値観や将来像から整理。7項目のキャリアプラン資料を作成</td>
+<td data-label="AXIS Agent"><b>○ 選択肢が広い</b>事業会社のDX、PE/VC、フリーランス・副業まで視野に入る</td></tr>
 <tr><th>出口戦略</th>
-<td class="top"><b>○ ポスト戦略のルートを解説</b>事業会社の企画、経営企画・M&amp;A、PE/VCの3ルート。IT、外資、総合商社の求人も</td>
-<td><b>○ コンサルの先も選べる</b>金融、IT/SaaS、PE/VC、経営企画を扱う</td>
-<td><b>◎ 出口は3社随一</b>PE/VC取引100社超。PE/VC専門とDX・IT専任のコンサルタントが在籍。CxO・部長以上の求人も</td></tr>
+<td data-label="MyVision" class="top"><b>○ ポスト戦略のルートを解説</b>事業会社の企画、経営企画・M&amp;A、PE/VCの3ルート。IT、外資、総合商社の求人も</td>
+<td data-label="ASSIGN"><b>○ コンサルの先も選べる</b>金融、IT/SaaS、PE/VC、経営企画を扱う</td>
+<td data-label="AXIS Agent"><b>◎ 出口は3社随一</b>PE/VC取引100社超。PE/VC専門とDX・IT専任のコンサルタントが在籍。CxO・部長以上の求人も</td></tr>
 <tr><th>サポート力</th>
-<td class="top"><b>◎ 選考対策が最も厚い</b>経験の棚卸し、書類指導、元コンサルの模擬面接、ファーム別の過去選考データにもとづく対策、日程調整、入社後フォロー</td>
-<td><b>○ 1人が最後まで伴走</b>企業別の対策資料、面接ごとのフィードバック。支援4,000名以上</td>
-<td><b>○ 現役向けが中心</b>担当制で書類添削、ケース対策、模擬面接。未経験は事前相談から</td></tr>
+<td data-label="MyVision" class="top"><b>◎ 選考対策が最も厚い</b>経験の棚卸し、書類指導、元コンサルの模擬面接、ファーム別の過去選考データにもとづく対策、日程調整、入社後フォロー</td>
+<td data-label="ASSIGN"><b>○ 1人が最後まで伴走</b>企業別の対策資料、面接ごとのフィードバック。支援4,000名以上</td>
+<td data-label="AXIS Agent"><b>○ 現役向けが中心</b>担当制で書類添削、ケース対策、模擬面接。未経験は事前相談から</td></tr>
 </tbody>
 </table>
 </div>
@@ -264,47 +292,47 @@ summary:focus-visible,a:focus-visible{outline:3px solid #23201C;outline-offset:2
 <section id="table" class="sec">
 <div class="wrap">
 <h2>3社の比較表</h2>
-<p class="lead">横にスクロールできます。2026年11月15日時点の情報です。</p>
+<p class="lead"><span class="scrollhint-d">横にスクロールできます。</span>2026年11月15日時点の情報です。</p>
 <div class="tblbox" style="margin-top:24px">
-<table class="tbl" style="min-width:960px">
+<table class="tbl" style="min-width:960px" data-stack>
 <thead><tr><th style="width:130px">項目</th><th class="top">1位 MyVision</th><th>2位 ASSIGN</th><th>3位 AXIS Agent</th></tr></thead>
 <tbody>
 <tr><th>運営会社</th>
-<td class="top">2022年6月設立<br>東京・虎ノ門<br>許可番号 13-ユ-314719</td>
-<td>2016年12月設立<br>東京・霞が関<br>許可番号 13-ユ-308560</td>
-<td>2002年設立、東証グロース上場<br>東京・麹町<br>許可番号 13-ユ-010759</td></tr>
+<td data-label="MyVision" class="top">2022年6月設立<br>東京・虎ノ門<br>許可番号 13-ユ-314719</td>
+<td data-label="ASSIGN">2016年12月設立<br>東京・霞が関<br>許可番号 13-ユ-308560</td>
+<td data-label="AXIS Agent">2002年設立、東証グロース上場<br>東京・麹町<br>許可番号 13-ユ-010759</td></tr>
 <tr><th>強み・対応領域</th>
-<td class="top"><b>コンサル特化</b>戦略系・総合系が中心。IT、外資、商社も</td>
-<td><b>20〜30代のハイキャリア</b>コンサル、金融、IT、PE/VC</td>
-<td><b>ポストコンサル領域</b>PE/VC、事業会社DX、独立まで</td></tr>
+<td data-label="MyVision" class="top"><b>コンサル特化</b>戦略系・総合系が中心。IT、外資、商社も</td>
+<td data-label="ASSIGN"><b>20〜30代のハイキャリア</b>コンサル、金融、IT、PE/VC</td>
+<td data-label="AXIS Agent"><b>ポストコンサル領域</b>PE/VC、事業会社DX、独立まで</td></tr>
 <tr><th>向いている人</th>
-<td class="top"><b>事業会社出身・未経験</b>コンサルを初めて目指す人</td>
-<td><b>キャリアの軸を整理したい人</b>求人の前に価値観から考えたい20〜30代</td>
-<td><b>現役・ポストコンサル</b>次の選択肢を広く見たい人</td></tr>
+<td data-label="MyVision" class="top"><b>事業会社出身・未経験</b>コンサルを初めて目指す人</td>
+<td data-label="ASSIGN"><b>キャリアの軸を整理したい人</b>求人の前に価値観から考えたい20〜30代</td>
+<td data-label="AXIS Agent"><b>現役・ポストコンサル</b>次の選択肢を広く見たい人</td></tr>
 <tr><th>サポート内容</th>
-<td class="top"><b>選考対策が厚い</b>元コンサルの模擬面接、ファーム別対策、書類指導、年収交渉、入社後フォロー</td>
-<td><b>価値観の整理から</b>初回は求人を出さない。企業別資料、面接ごとのフィードバック。担当は1人が最後まで</td>
-<td><b>長期の伴走</b>担当制、書類添削、ケース対策、年収交渉。平均支援期間は3年以上</td></tr>
+<td data-label="MyVision" class="top"><b>選考対策が厚い</b>元コンサルの模擬面接、ファーム別対策、書類指導、年収交渉、入社後フォロー</td>
+<td data-label="ASSIGN"><b>価値観の整理から</b>初回は求人を出さない。企業別資料、面接ごとのフィードバック。担当は1人が最後まで</td>
+<td data-label="AXIS Agent"><b>長期の伴走</b>担当制、書類添削、ケース対策、年収交渉。平均支援期間は3年以上</td></tr>
 <tr><th>実績・数字</th>
-<td class="top"><b>未経験が支援の約8割</b>内定承諾者の平均年収アップ156万円（2026年1月）、Google口コミ4.8。支援実績No.1は2025年度の支援件数</td>
-<td><b>支援4,000名以上</b>面談は平均6.4回、保有求人は約7,000件</td>
-<td><b>BIG4コンサルの約30%が登録</b>（2025年9月）。入社決定数は718人→580人（2024→2025年6月期）</td></tr>
+<td data-label="MyVision" class="top"><b>未経験が支援の約8割</b>内定承諾者の平均年収アップ156万円（2026年1月）、Google口コミ4.8。支援実績No.1は2025年度の支援件数</td>
+<td data-label="ASSIGN"><b>支援4,000名以上</b>面談は平均6.4回、保有求人は約7,000件</td>
+<td data-label="AXIS Agent"><b>BIG4コンサルの約30%が登録</b>（2025年9月）。入社決定数は718人→580人（2024→2025年6月期）</td></tr>
 <tr><th>料金・面談形式</th>
-<td class="top">無料<br>対面・オンライン</td>
-<td>無料<br>オンライン中心、対面も可</td>
-<td>無料<br>対面・オンライン。拠点は東京・大阪</td></tr>
+<td data-label="MyVision" class="top">無料<br>対面・オンライン</td>
+<td data-label="ASSIGN">無料<br>オンライン中心、対面も可</td>
+<td data-label="AXIS Agent">無料<br>対面・オンライン。拠点は東京・大阪</td></tr>
 <tr><th>アドバイザー</th>
-<td class="top"><b>大手ファーム出身9名</b>エグゼクティブコンサルタントを公式に掲載</td>
-<td><b>コンサル出身の創業メンバー</b>業界経験者が在籍</td>
-<td><b>PE/VC専門・DX/IT専任</b>専門領域ごとにコンサルタントが在籍</td></tr>
+<td data-label="MyVision" class="top"><b>大手ファーム出身9名</b>エグゼクティブコンサルタントを公式に掲載</td>
+<td data-label="ASSIGN"><b>コンサル出身の創業メンバー</b>業界経験者が在籍</td>
+<td data-label="AXIS Agent"><b>PE/VC専門・DX/IT専任</b>専門領域ごとにコンサルタントが在籍</td></tr>
 <tr><th>口コミの傾向</th>
-<td class="top"><b>対策とスピードが好評</b>面接・ケース対策、レスポンスの速さが強み。担当者による差あり</td>
-<td><b>誠実な伴走が好評</b>価値観から考えてくれる。求人数と担当者の差が課題</td>
-<td><b>書類・面接対策が好評</b>連絡の多さ、求人の少なさに不満も</td></tr>
+<td data-label="MyVision" class="top"><b>対策とスピードが好評</b>面接・ケース対策、レスポンスの速さが強み。担当者による差あり</td>
+<td data-label="ASSIGN"><b>誠実な伴走が好評</b>価値観から考えてくれる。求人数と担当者の差が課題</td>
+<td data-label="AXIS Agent"><b>書類・面接対策が好評</b>連絡の多さ、求人の少なさに不満も</td></tr>
 <tr><th>注意点</th>
-<td class="top"><b>戦略・総合が中心</b>他業界も見たい人は総合型を併用。担当者によって対応に差が出る</td>
-<td><b>40代以降・地方・急ぎの人は不向き</b>初回で求人が出ないため遠回りに感じやすい</td>
-<td><b>未経験は事前相談が前提</b>現役・ポストコンサル向けが中心</td></tr>
+<td data-label="MyVision" class="top"><b>戦略・総合が中心</b>他業界も見たい人は総合型を併用。担当者によって対応に差が出る</td>
+<td data-label="ASSIGN"><b>40代以降・地方・急ぎの人は不向き</b>初回で求人が出ないため遠回りに感じやすい</td>
+<td data-label="AXIS Agent"><b>未経験は事前相談が前提</b>現役・ポストコンサル向けが中心</td></tr>
 </tbody>
 </table>
 </div>

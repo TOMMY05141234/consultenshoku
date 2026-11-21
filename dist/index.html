@@ -82,6 +82,29 @@ header{position:static!important}
 }
 </style>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18146496318"></script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+gtag('config','AW-18146496318');
+// 各社リンクのクリックをGoogle広告のコンバージョンとして計測
+(function(){
+  var map=[
+    ['2CJQ2Y','AW-18146496318/8u1ZCLrp7LwdEL6e9sxD'],
+    ['7Q1LOQ','AW-18146496318/I0C_CL3p7LwdEL6e9sxD'],
+    ['7NNV9M','AW-18146496318/cn4YCLjq7LwdEL6e9sxD']
+  ];
+  document.addEventListener('click',function(e){
+    var a=e.target.closest&&e.target.closest('a[href*="px.a8.net"]');
+    if(!a)return;
+    for(var i=0;i<map.length;i++){
+      if(a.href.indexOf(map[i][0])>-1){gtag('event','conversion',{'send_to':map[i][1]});break;}
+    }
+  },true);
+})();
+</script>
 </head>
 <body>
 <div style="width:100%">
